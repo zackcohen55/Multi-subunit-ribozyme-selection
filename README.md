@@ -13,9 +13,8 @@ De-multiplexed FASTQ files → Quality control → Compute properties of the ent
 1. **De-multiplexed FASTQ files:** Prepare seperate FASTQ files from each round of selection
 2. **Quality Control:** Aptasuite parses paired-end reads using fuzzy matching to confirm primer regions are present, and automatically corrects mismatches between forward and reverse reads. Outputs .txt files containing redundant sequence entries that must be summed to get total read count
 3. **Compute properties of the entire population:** Assess_variant_pool_from_selection.ipynb
-4. **Annotation:** VEP for functional consequence prediction
-5. **Compute properties of the pool encoding 1 RNA:** File1.ipynb
-6. **Compute properties of the pool encoding 2 RNAs:** File2.ipynb
+4. **Compute properties of the pool encoding 1 RNA:** File1.ipynb
+5. **Compute properties of the pool encoding 2 RNAs:** File2.ipynb
 
 
 ## Requirements
