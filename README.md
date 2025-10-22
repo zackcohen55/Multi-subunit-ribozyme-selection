@@ -2,6 +2,7 @@
 
 ## Overview
 This project assesses in vitro selection of ligase ribozymes and identifies promising ribozyme variants for empirical testing. This project assumes selection (Fig. 1A) from a mixed library of DNA templates encoding either 1 or 2 RNAs (Fig. 1B).
+![Introductory_figure](figures/readme_fig.png)
 
 ## Workflow
 
