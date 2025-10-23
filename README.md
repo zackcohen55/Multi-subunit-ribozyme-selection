@@ -14,8 +14,7 @@ De-multiplexed FASTQ files → Quality control → Compute properties of the ent
 1. **De-multiplexed FASTQ files:** Prepare seperate FASTQ files from each round of selection
 2. **Quality Control:** Aptasuite parses paired-end reads using fuzzy matching to confirm primer regions are present, and automatically corrects mismatches between forward and reverse reads. Outputs .txt files containing redundant sequence entries that must be summed to get total read count
 3. **Compute properties of the entire population:** Assess_variant_pool_from_selection.ipynb
-4. **Compute properties of the pool encoding 1 RNA:** File1.ipynb
-5. **Compute properties of the pool encoding 2 RNAs:** File2.ipynb
+4. **Compute properties of the pool encoding either 1 or 2 RNAs:** Assess_RNA_pool.ipynb
 
 
 ## Requirements
@@ -35,20 +34,18 @@ De-multiplexed FASTQ files → Quality control → Compute properties of the ent
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `--parameter_1` | 20 | Description 1 |
-| `--parameter_2` | 30 | Description 2 |
+| `--read_threshold` | 1 | each variant must have more reads than the read threshold to be considered in the stated calculation |
+| `--promoter_tolerance` | 2 | maximum edit distance to classify a substring as containing the T7 promoter |
+| `--one_or_two_RNAs` | 1 or 2 | one_or_two_RNAs = choose whether you want to assess the 1 or 2 RNA pool |
 
 
 ## Important Notes
 
-- **Note 1:** Here is the text for note 1.
-- **Note 2:** Here is the text for note 2.
+- **Note 1:** Labels must be adjusted depending on whether sequence data is available for each round of selection.
 
 ## Troubleshooting
 
-**Problem 1** Solution 1.
-
-**Problem 2** Solution 2.
+**Problem 1** Certain blocks of code can be activated to output the status of calculations.
 
 
 ## References
