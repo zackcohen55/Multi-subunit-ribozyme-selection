@@ -41,11 +41,11 @@ De-multiplexed FASTQ files → Quality control → Compute properties of the ent
 
 ## Important Notes
 
-- **Note 1:** Labels must be adjusted depending on whether sequence data is available for each round of selection.
+- Labels must be adjusted depending on whether sequence data is available for each round of selection.
 
 ## Troubleshooting
 
-**Problem 1** Certain blocks of code can be activated to output the status of calculations.
+- Certain blocks of code can be activated to output the status of calculations.
 
 
 ## References
